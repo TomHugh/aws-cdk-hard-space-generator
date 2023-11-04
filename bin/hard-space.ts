@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { HardSpaceStack } from '../lib/hard space-stack';
+import { HardSpaceStack } from '../lib/hard-space-stack';
 
 const app = new cdk.App();
 new HardSpaceStack(app, 'HardSpaceStack', {
